@@ -1,1 +1,1 @@
-# Data_And_Algo
+This repository consists of programs of Datastructure and algorithms written in C++.
