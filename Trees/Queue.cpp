@@ -33,13 +33,18 @@ class Queue{
 };
 
 void Queue::Enqueue(Node *ptr)
-{
-	if(rear==size-1)
-	cout<<"queue is full";
-	else{
+{	if(ptr)
+	{
+		if(rear==size-1)
+		cout<<"queue is full";
+		else
+		{
 		rear++;
 		Q[rear]=ptr;
+		}
+		
 	}
+	
 }
 
 Node* Queue::Dequeue()
